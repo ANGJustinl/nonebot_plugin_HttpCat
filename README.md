@@ -47,7 +47,9 @@ pip install nonebot_plugin_HttpCat --upgrade
 本包提供了两个函数,分别对应了httpcat的 解释msg 和 图片url,或许大家可以拿来让http报错不再无聊~（笑）
 
 ```from nonebot_plugin_HttpCat import httpcat_msg,httpcat_pic```
+
 ...
+
 ``` send(msgs + MessageSegment.image(file=url)) ```
 
 ## 🎉 使用
