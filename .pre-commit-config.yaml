@@ -12,13 +12,6 @@ repos:
       - id: black
         stages: [commit]
 
-  - repo: https://github.com/pycqa/isort
-    rev: 5.10.1
-    hooks:
-      - id: isort
-        args: ["--profile", "black", "--filter-files"]
-        stages: [commit]
-
   - repo: https://github.com/nonebot/nonemoji
     rev: v0.1.4
     hooks:
